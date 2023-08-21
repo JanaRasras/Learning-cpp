@@ -83,6 +83,17 @@ get, ignore, peek, putback, or clear with file stream variables.
 statement inFile.close();. To close a file as indicated by the ofstream
 variable outFile, you use the statement outFile.close();.
 
+## Chapter 4 | CONTROL STRUCTURES I(SELECTION)
+- The two most common control structures are selection and repetition.
+- There are two selection structures in C++. 
+- One-way selection takes the following form:
+if and if .. else.
+- The switch structure is used to handle multiway selection.
+- The execution of a break statement in a switch statement immediately
+exits the switch structure.
+- If certain conditions are not met in a program, the program can be
+terminated using the assert function.
+
 
 
 
