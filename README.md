@@ -93,7 +93,7 @@ if and if .. else.
 exits the switch structure.
 - If certain conditions are not met in a program, the program can be
 terminated using the assert function.
-
+- conditinal operator: (?:) exp1? exp2:exp3. if exp1 evaluates to true, the result is exp2, otherwise, the result is exp3.
 
 
 
