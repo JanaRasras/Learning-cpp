@@ -96,7 +96,9 @@ terminated using the assert function.
 - conditinal operator: (?:) . if exp1 evaluates to true, the result is exp2, otherwise, the result is exp3.
   ```sh
   exp1? exp2:exp3
-```
+  ```
+
+
 
 ## Chapter 5 | Control Structures II (Repetition)
 - C++ has three looping (repetition) structures: while, for, and
