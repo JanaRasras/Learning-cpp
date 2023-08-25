@@ -97,6 +97,61 @@ terminated using the assert function.
 
 
 ## Chapter 5 | Control Structures II (Repetition)
+- C++ has three looping (repetition) structures: while, for, and
+do. . .while.
+-  The syntax of the while statement is:
+```sh
+while (expression)
+statement
+```
+
+-  In C++, while is a reserved word.
+- In the while statement, the parentheses around the expression (the
+decision maker) are important; they mark the beginning and end of the
+expression.
+-  The statement is called the body of the loop.
+- The body of the while loop must contain a statement that eventually sets
+the expression to false.
+-  A counter-controlled while loop uses a counter to control the loop.
+- In a counter-controlled while loop, you must initialize the counter before
+the loop, and the body of the loop must contain a statement that changes
+the value of the counter variable.
+- A sentinel is a special value that marks the end of the input data. The
+sentinel must be similar to, yet differ from, all the data items.
+- A sentinel-controlled while loop uses a sentinel to control the while
+loop. The while loop continues to execute until the sentinel is read.
+- An EOF-controlled while loop continues to execute until the program
+detects the end-of-file marker.
+
+- A for loop simplifies the writing of a counter-controlled while loop.
+- In C++, for is a reserved word.
+- The syntax of the for loop is:
+```sh
+for (initialize statement; loop condition; update statement)
+statement
+``` 
+- Putting a semicolon at the end of the for loop (before the body of the for
+loop) is a semantic error. In this case, the action of the for loop is empty.
+
+The syntax of the do. . .while statement is:
+```sh
+do
+statement
+while (expression);
+```
+
+- Both while and for loops are called pretest loops. A do. . .while loop is
+called a posttest loop.
+- The while and for loops may not execute at all, but the do. . .while loop
+always executes at least once.
+- Executing a break statement in the body of a loop immediately terminates
+the loop.
+- Executing a continue statement in the body of a loop skips the loop’s
+remaining statements and proceeds with the next iteration.
+- When a continue statement executes in a while or do. . .while loop,
+the expression update statement in the body of the loop may not execute.
+- After a continue statement executes in a for loop, the update statement
+is the next statement executed.
 
 
 
