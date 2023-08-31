@@ -157,6 +157,41 @@ the expression update statement in the body of the loop may not execute.
 - After a continue statement executes in a for loop, the update statement
 is the next statement executed.
 
+## Chapter 6 | USER-DEFINED FUNCTIONS I
+- The C++ system provides the standard (predefined) functions.
+- To use a standard function, you must:
+ - -  Know the name of the header file that contains the function’s specification,
+- -  Include that header file in the program, and
+- - Know the name and type of the function and number and types of the parameters (arguments).
+- There are two types of user-defined functions: value-returning functions and void functions.
+- Variables defined in a function heading are called formal parameters.
+- Expressions, variables, or constant values used in a function call are called
+actual parameters.
+- In a function call, the number of actual parameters and their types must match with the formal parameters in the order given.
+- To call a function, use its name together with the actual parameter list.
+- A value-returning function returns a value. Therefore, a value-returning
+function is used (called) in either an expression or an output statement or as
+a parameter in a function call.
+- The general syntax of a user-defined function is:
+```sh
+functionType functionName(formal parameter list)
+{
+statements
+}
+```
+- The line functionType functionName(formal parameter list) is
+called the function heading (or function header). Statements enclosed
+between braces ({ and }) are called the body of the function.
+- The function heading and the body of the function are called the definition
+of the function.
+- A value-returning function returns its value via the return statement.
+- A function can have more than one return statement. However, whenever
+a return statement executes in a function, the remaining statements
+are skipped and the function exits.
+- A return statement returns only one value.
+- In a program, function prototypes are placed before every function definition,
+including the definition of the function main.
+-  When a function exits, the control goes back to the caller.
 
 
 
