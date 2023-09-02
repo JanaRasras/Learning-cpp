@@ -193,5 +193,27 @@ are skipped and the function exits.
 including the definition of the function main.
 -  When a function exits, the control goes back to the caller.
 
+## Chapter 7 | USER-DEFINED FUNCTIONS II
+- A function that does not have a data type is called a void function.
+- A return statement without any value can be used in a void function. If a return
+statement is used in a void function, it is typically used to exit the function early.
+- The heading of a void function starts with the word void.
+- A void function may or may not have parameters.
+- The corresponding actual parameter of a value parameter is an expression, a variable, or a constant value
+- When you include & after the data type of a formal parameter, the formal
+parameter becomes a reference parameter.
+- If a formal parameter needs to change the value of an actual parameter, in the
+function heading, you must declare this formal parameter as a reference parameter.
+- Variables declared within a function (or block) are called local variables.
+- Variables declared outside of every function definition (and block) are
+called global variables.
+- A static variable is a variable for which memory remains allocated throughout
+the execution of the program.
+- By default, global variables are static variables.
+- If you do not specify the value of a default parameter, the default value is
+used for that parameter.
+- The calling function has the option of specifying a value other than the
+default for any default parameter
+- You cannot assign a constant value as a default value to a reference parameter.
 
 
